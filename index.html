@@ -3,12 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>termometro</title>
-    <link rel="stylesheet" href="./main.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                                                                                                                                                                                                                                                                                                                                                                                                                                                           <title>termometro</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
 </head>
 <body>
-    
+    <div class="container">   
+    <h1 class="text-center" id="texto">CONVERTIDOR DE<br>TEMPERATURA </h1>
+    <div class="row" id="contenedor">
+        <div class="col-4">
+            <div class="parte1">
+                <p class="texto_temperatura">temperatura en farenheit</p>
+    <input type="text" id="ingreso">
+    </div>
+        <div id="resul"></div>
+        </div>
+        <div class="col-4" >
+        <button id="boton">CONVERTIR</button>
+        <button id="boton2">REINICIAR</button>
+        </div>
+        <div class="col-4 ">
+            <p>100°</p>
+        <div class="palo">
+        <div id="liquido"></div>
+        </div>
+        <p class="pt-1">0°</p>
+        </div>
+    </div>
+    </div>
+        <script src="./main.js"></script>
 </body>
+
 </html>
