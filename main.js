@@ -9,3 +9,11 @@ function conversion() {
 }
 btn.addEventListener("click",conversion);
 
+let btn2=document.getElementById("boton2");
+function reinicio() {
+  document.getElementById("resul").innerHTML = "";
+document.getElementById("liquido").style.height ="0px";
+document.getElementById("ingreso").value="" ;
+}
+btn2.addEventListener("click",reinicio);
+

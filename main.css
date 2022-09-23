@@ -20,7 +20,7 @@
 }
 #liquido{
    width: 50px;
-   height: 300px;
+   height: 0px;
     background-color: aquamarine;
 }
 #resul{
@@ -45,5 +45,9 @@
 }
 .texto_temperatura{
     text-align: center;
+}
+#boton2{
+    margin-left: 35px;
+    margin-top: 30px;
 }
 
